@@ -1,7 +1,7 @@
 # Stocks-Sentiment-Analysis-NLP-LSTM
 Stocks Sentiment Analysis NLP LSTM
 
-## 1.Overview 
+## 1. Overview 
 ### Goal	
 	-Humungous data on social media about a stock which is impossible to go through and make decisions.
 	-Leverage technology to gain interesting insights and make better investment decisions.
@@ -23,28 +23,28 @@ Stocks Sentiment Analysis NLP LSTM
 	
 	
 	
-## 2.Code and resource used:
+## 2. Code and resource used:
 	-Pandas, Numpy, Matplotlib.py.	
 	-Seaborn and Plotly Express.
 	-Wordcloud.	
 	-NLTK.
 
-## 3.About the data:	
+## 3. About the data:	
 	
 
 
 	
-## 4.Data gathering:
+## 4. Data gathering:
 	-IEEE dataport  + twitter.
 	
-## 5.Data Preprocessing:
+## 5. Data Preprocessing:
 	-Data cleaning.
 	-Removing Punctuations and stopwords.
 	-Stemming and Tokenization.
 	
-## 6.Modelling
+## 6. Modelling
 	-Split the data into 90% train and 10% test.
-	-Performed Stemming, tokenisation , encoding and embedding to reduce output dimensions
+	-Performed Stemming, tokenisation , encoding and embedding to reduce feature dimensions
 	-Built a simple custom LSTM network for Sentiment analysis with the following configuration
 	-Optimizer used was ADAM 
 	-Loss taken was categorical cross entropy and metrics taken as accuracy.
